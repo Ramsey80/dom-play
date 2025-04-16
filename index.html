@@ -1,4 +1,4 @@
-l<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
  <head>
      <title>Assignments</title>
@@ -7,27 +7,64 @@ l<!DOCTYPE html>
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
+<style>
+    /* .hamlet{
+        background-color: yellow;
+    } */
+
+    /* div#play span{
+        background-color: blue;
+    } */
+
+</style>
  </head>
  <body>
      <header>
      <h1>Projects</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#" target="_blank">Dom Play</a>
+            <a href="#" target="_blank">DOM Play</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
      
    <main class="wrapper">
-    <p>This project explores dom manipulation in HTML and CSS</p>
+        <div id="play">
+            <p><strong>Assignment Overview:</strong></p>
+            <p>
+                This page is part of an interactive project where we explore DOM manipulation in HTML and CSS. 
+            </p>
+            <p>
+                The project involves understanding how to structure and manipulate content, as well as how to leverage custom attributes to represent metadata for each element.
+            </p>
+            <p><strong>Script Interactive:</strong></p>
+            <p><span data-actor="galinda">GALINDA: Remember, it's not goodbye, it's farewell.</span></p>
+            <p><span data-actor="action">Her Parents immediately rush back, clinging to her again. This time she's getting squished, and over it...</span></p>
+            <p><span data-actor="galinda">(CONT'D): Now it's goodbye.</span></p>
+            <p><span data-actor="galindas-parents">GALINDA'S PARENTS: Goodbye, precious!/We love you!</span></p>
+            <p><span data-actor="action">Glinda notices: a handkerchief, floating beside her? She turns, puzzled, and sees...</span></p>
+            <p><span data-actor="action">AN EARNEST YOUNG MUNCHKIN STUDENT, (BOQ) offering it to her. She takes it, dabs her eyes...</span></p>
+            <p><span data-actor="galinda">GALINDA (to Boq, genuine): They're going to miss me so much.</span></p>
+            <p><span data-actor="boq">BOQ (overcomes his shyness): I'm Boq. From Munchkinland. And I know we don't know each other, but--</span></p>
+            <p><span data-actor="galinda">GALINDA: You know what I believe, Bick?</span></p>
+            <p><span data-actor="boq">BOQ: Boq. I mean-- what.</span></p>
+            <p><span data-actor="galinda">GALINDA: That strangers... are just people I've never met.</span></p>
+            <p><span data-actor="action">He takes this in, slightly stumped, but she's looking into his eyes, and he's blown away, about to say more, when--</span></p>
+            <p><span data-actor="pfannee-shenshen">PFANNEE/SHENSHEN (O.S.): GALINDA!!</span></p>
+            <p><span data-actor="action">Two excited students, PFANNEE and SHENSHEN, rush up to Galinda.</span></p>
+            <p><span data-actor="pfannee">PFANNEE: It's Pfannee!</span></p>
+            <p><span data-actor="shenshen">SHENSHEN: And ShenShen!</span></p>
+            <p><span data-actor="pfannee">PFANNEE: From Miss Cringeable's Twirling Academy!</span></p>
+        </div>
      <footer>
-      <p><small>&copy; 2021 by 
-          Ramsey Mell , All Rights Reserved ~ 
-          <a id="html-checker" href="#">Check HTML</a> ~ 
-          <a id="css-checker" href="#">Check CSS</a></small>
-     </p>
+        <p><small>&copy; 2025 by 
+            Ramsey Mell, All Rights Reserved ~ 
+            <a id="html-checker" href="#">Check HTML</a> ~ 
+            <a id="css-checker" href="#">Check CSS</a></small>
+        </p>
     </footer>
   </main>
   <script src="js/main.js"></script>
+  <script src="js/dom-play.js"></script>
  </body>
 </html>
