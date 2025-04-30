@@ -24,10 +24,10 @@ for(const mySpan of spans){
 function highlightActor(myActor) {
     for(const mySpan of spans){
         if(myActor == mySpan.dataset.actor) {
-            mySpan.style.backgroundColor = "white";
+            mySpan.style.backgroundColor = "orange";
         }
         else {
-            mySpan.style.backgroundColor = "orange";
+            mySpan.style.backgroundColor = "white";
         }
     }
 }
