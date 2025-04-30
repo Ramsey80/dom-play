@@ -17,6 +17,10 @@ for(const mySpan of spans){
     mySpan.addEventListener("Click",myAlert);
 }
 
+function myAlert(){
+    alert("Im Clicked!")
+}
+
 function highlight(el){
     
     if(el.style.backgroundColor == "orange"){
