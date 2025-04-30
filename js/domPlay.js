@@ -8,4 +8,8 @@ HTML "hooks" may be added to the page, meaning you can edit the HTML to enable y
 */
 
 
-document.querySelector(".vForVendetta").style.backgroundColor = "yellow";
+//document.querySelector(".vForVendetta").style.backgroundColor = "yellow";
+
+function highlight(el){
+    el.style.backgroundColor = "orange";
+}
