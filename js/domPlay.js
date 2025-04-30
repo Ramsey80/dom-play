@@ -14,10 +14,12 @@ const spans = document.querySelectorAll("div#play span");
 console.log(spans);
 
 for(const mySpan of spans){
-    mySpan.addEventListener("Click",myAlert);
+    mySpan.addEventListener("Click",function(ev){
         let myActor = mySpan.dataset.actor;
         highlightActor(myActor);
         // alert(myActor);
+    });
+        
 }
 function highlightActor(myActor) {
     for(const mySpan of spans){
