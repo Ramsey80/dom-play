@@ -11,5 +11,10 @@ HTML "hooks" may be added to the page, meaning you can edit the HTML to enable y
 //document.querySelector(".vForVendetta").style.backgroundColor = "yellow";
 
 function highlight(el){
-    el.style.backgroundColor = "orange";
+    
+    if(el.style.backgroundColor == "orange"){
+        el.style.backgroundColor = "white";
+    }else{
+        el.style.backgroundColor = "orange";
+    }
 }
