@@ -9,7 +9,9 @@ HTML "hooks" may be added to the page, meaning you can edit the HTML to enable y
 
 
 //document.querySelector(".vForVendetta").style.backgroundColor = "yellow";
+const spans = document.querySelectorAll("div#play span");
 
+console.log(spans);
 function highlight(el){
     
     if(el.style.backgroundColor == "orange"){
