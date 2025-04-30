@@ -15,6 +15,7 @@ console.log(spans);
 
 for(const mySpan of spans){
     mySpan.addEventListener("Click",myAlert);
+    alert("inside span");
 }
 
 function myAlert(){
