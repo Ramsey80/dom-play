@@ -15,13 +15,25 @@ console.log(spans);
 
 for(const mySpan of spans){
     mySpan.addEventListener("Click",myAlert);
-    alert("inside span");
+        let myActor = mySpan.dataset.actor;
+        highlightActor(myActor);
+        // alert(myActor);
 }
-
+function highlightActor(myActor) {
+    for(const mySpan of spans){
+        if(myActor == mySpan.dataset.actor) {
+            mySpan.style.backgroundColor = "rgb(127, 255, 212)";
+        }
+        else {
+            mySpan.style.backgroundColor = "white";
+        }
+    }
+}
+/*
 function myAlert(){
     alert("Im Clicked!")
 }
-
+*/
 function highlight(el){
     
     if(el.style.backgroundColor == "orange"){
