@@ -12,6 +12,11 @@ HTML "hooks" may be added to the page, meaning you can edit the HTML to enable y
 const spans = document.querySelectorAll("div#play span");
 
 console.log(spans);
+
+for(const mySpan of spans){
+    mySpan.addEventListener("Click",myAlert);
+}
+
 function highlight(el){
     
     if(el.style.backgroundColor == "orange"){
